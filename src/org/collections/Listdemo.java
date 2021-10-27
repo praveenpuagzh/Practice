@@ -17,7 +17,8 @@ public class Listdemo {
 
 		//ArrayList(best choice when our frequent operation is "retrival")
 		List<String> domestic = new ArrayList<String>(Arrays.asList("dog", "cat", "cow", "fish", "hen"));
-
+		System.out.println(domestic);
+		System.out.println("===========");
 		System.out.println(domestic.get(0));
 
 		System.out.println("==========");
@@ -41,6 +42,16 @@ public class Listdemo {
 	
 		System.out.println(carnivors.get(2));
 	
+		
+		
+	carnivors.add(0, "crocodile");
+	
+		System.out.println(carnivors);
+	
+		
+		
+		
+		
 	}
 	
 
