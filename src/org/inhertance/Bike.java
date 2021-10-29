@@ -4,6 +4,8 @@ import org.basic.Car;
 
 public class Bike extends Car { // Bike child class extends car parent class
 
+	/*single child class extends the single parent class is single inheritance*/
+	
 	public void brand() {
 		System.out.println("Brand:Yamha");
 	}
