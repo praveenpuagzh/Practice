@@ -8,12 +8,17 @@ public class Employee {
 	3. The data type of parameters must be different.
 	4. The sequence of parameters must be different*/
 	
-	private void empdetails(String name) {
-		System.out.println("empname:"+name);
+	public void empdetails(String name) {
+		System.out.println("name:"+name);
 	}
 	
-	private void empdetails(Integer id,String city) {
-	System.out.println("emnpid:"+id+"\n"+"city:"+city);
+	public void empdetails(Integer id,String city) {
+	System.out.println("id:"+id+"\n"+"city:"+city);
+
+	}
+	
+	public void empdetails(long phone) {
+	System.out.println("contact:"+phone);
 
 	}
 	
@@ -22,6 +27,7 @@ public class Employee {
 		Employee p = new Employee();
 		p.empdetails("praveen");
 		p.empdetails(120,"puducherry");
+		p.empdetails(546487266);
 		
 		
 	}
