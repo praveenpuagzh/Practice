@@ -2,7 +2,7 @@ package org.polymorhpism;
 
 public class Employee {
 	
-	/*Method overloading is same method name but different in parameters
+	/*Method overloading is in same class ,same method name but different in parameters
 	1. The method name must be same.
 	2. The number of parameters must be different.
 	3. The data type of parameters must be different.
