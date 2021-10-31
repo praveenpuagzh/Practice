@@ -1,6 +1,6 @@
 package org.interfacetrail;
 
-import java.net.SocketTimeoutException;
+//class can implements any number of interface by implements keyword
 
 public class Test implements Bike, Car {
 
