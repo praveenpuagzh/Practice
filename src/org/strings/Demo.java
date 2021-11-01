@@ -29,7 +29,7 @@ public class Demo {
 			
 			String s = "Am I Teaching good";
 			String[] words = s.split(" ");
-		    for (String string : words) {
+			for (String string : words) {
 				System.out.println(string);
 				
 			}
